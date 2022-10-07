@@ -64,24 +64,24 @@
 
 * Change adapter options
 
-![ad2](Images/AD2.png)
+![ad2](Images/ad2.png)
 
 * Select your card properties
 * Go to "Internet Protocol Version 4" > Properties
 
-![ad3](Images/AD3.png)
+![ad3](Images/ad3.png)
 
 * Give IP
 
-![ad4](Images/AD4.png)
+![ad4](Images/ad4.png)
 
 * Try to join the gateway (so your LAN INTERFACE in pfsense)
 
-![ad5](Images/AD5.png)
+![ad5](Images/ad5.png)
 
 * Rename the server with a easy name to remember/use.
 
-![ad6](Images/AD6.png)
+![ad6](Images/ad6.png)
 ![ad7](Images/AD7.png)
 
 * Restart your VM
@@ -96,21 +96,21 @@
 * Select the only server you've got
 * Add "Active Directory Domain Services"
 
-![ad9](Images/AD9.png)
-![ad10](Images/AD10.png)
+![ad9](Images/ad9.png)
+![ad10](Images/ad10.png)
 
 * Left the other windows with defaults configurations
 * After it's finish, promote this server to a domain controller
 
-![ad11](Images/AD11.png)
+![ad11](Images/ad11.png)
 
 * Add a new forest
 * 
-![ad12](Images/AD112.png)
+![ad12](Images/ad12.png)
 
 * Left default configuration and give a password
 
-![ad13](Images/AD113.png)
+![ad13](Images/ad13.png)
 
 * Left DNS part by default
 * Check the netbios domain name (this will give you want you will have to write before the \)
