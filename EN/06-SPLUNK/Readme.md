@@ -107,7 +107,8 @@ _I know, this seem useless and no one will do, be YOU need ton read it and under
 
 After the job is done, try to connect on it : https://127.0.0.1:8000
 
-![install5](Images/install5.png)
+![install5](Images/Install5.png)
+
 ![install6](Images/install6.png)
 
 Congratulation, you have installed Splunk !
@@ -375,6 +376,7 @@ When you perform a search, Splunk display a Timeline
 There are three mode, you will use mostly the Smart Mode.
 
 ![mode1](Images/mode1.png)
+
 ![mode2](Images/mode2.png)
 
 ## SEARCH BAR
@@ -394,6 +396,7 @@ You will find username like Jeanne, Jean, etc.
 ## FIELDS
 Fields are availables on the left.
 Here you have each fields available in your search.
+
 ![field1](Images/field1.png)
 
 Select on field to have informations about it.
@@ -415,29 +418,37 @@ My request is : source="WinEventLog:*" index="winlog_clients" EventCode=4625 AND
 _Maybe you need to change the "Nom_du_compte" to "accountname"._
 
 * Try your request in search bar
+
 ![report1](Images/report1.png)
 
 * Go to Save As menu and select 
+
 ![report2](Images/report2.png)
 
 * Give a title and a description of your report
+
 ![report3](Images/report3.png)
 
 * Save and Go to View
+
 ![report4](Images/report4.png)
 
 ## EDIT OR DELETE AN EXISTING REPORT
 * From the Search App, Go to Reports sections
+
 ![report5](Images/report5.png)
+
 ![report6](Images/report6.png)
 
 Here you can find all existing reports.
 * Select the report created few minutes ago.
+
 ![report7](Images/report7.png)
 
 From here you can see informations about your report.
 
 * Select the Edit button
+
 ![report8](Images/report8.png)
 
 ### EXERCICE
@@ -448,11 +459,13 @@ We gonna schedule this report for everyday at 08AM to have the connections faile
 ![schedule1](Images/schedule1.png)
 
 * Configure it.
+
 ![schedule2](Images/schedule2.png)
 
 _In this exercice you don't used trigger actions, but I invited you to check what you can when your report is generated (like send an email, launch a script, etc.)
 
 * Save and check again informations about your report.
+
 ![schedule3](Images/schedule3.png)
 
 # ALERTS
@@ -462,6 +475,7 @@ They can be scheduled or in real-time. In that case, becarefull to not overload 
 
 ## EXERCICE
 Use the same request as report section and save it as an alert.
+
 ![alerte1](Images/alert1.png)
 
 Like you see, you have more informations to give than a simple report.
@@ -484,6 +498,7 @@ _Here we have only one panel, but you can add other panel to this dashboard_
 When your connected to Splunk, click near the Administrator menu
 
 ![status1](Images/status1.png)
+
 ![status2](Images/status2.png)
 
 On the left control panel you have the status of each part of Splunk Server.
@@ -498,6 +513,7 @@ Simple Go to [Splunk Security Essential aka SSE](https://docs.splunksecurityesse
 By default Splunk give you some roles, to find or create a new role, go to Settings > Roles
 
 ![role1](Images/role1.png)
+
 ![role2](Images/role2.png)
 
 From here you can edit or add a new role.
