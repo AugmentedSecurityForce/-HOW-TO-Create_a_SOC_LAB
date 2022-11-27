@@ -90,7 +90,7 @@
 * Connect to your administrator account
 * Select "Add roles and features"
 
-![ad8](Images/AD8.png)
+![ad8](Images/ad8.png)
 
 * Add a role-based installation
 * Select the only server you've got
@@ -105,7 +105,7 @@
 ![ad11](Images/ad11.png)
 
 * Add a new forest
-* 
+
 ![ad12](Images/ad12.png)
 
 * Left default configuration and give a password
@@ -133,5 +133,3 @@ To do it easily, we gonna use [BadBloud](https://github.com/davidprowe/BadBlood)
 ![badblood2](Images/badblound2.png)
 
 Now, you have a shitty Active Directory configuration (2500 users, 500 groups, OU, 100 computers, etc.), have fun !
-
-
