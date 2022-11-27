@@ -93,13 +93,13 @@ _I know, this seem useless and no one will do, be YOU need ton read it and under
 * Accept the Licence Agreement
 * For the training we gonna customize options, so press "Customize Options" even if we gonna left default configuration.
 
-![install3](Images/Install3.png)
+![install3](Images/install3.png)
 
 * Select where you want to install Splunk
 * Install Splunk as a local System
 * Set the credentials
 
-![install4](Images/Install4.png)
+![install4](Images/install4.png)
 
 * Launch this install and waiting
 
@@ -107,8 +107,8 @@ _I know, this seem useless and no one will do, be YOU need ton read it and under
 
 After the job is done, try to connect on it : https://127.0.0.1:8000
 
-![install5](Images/Install5.png)
-![install6](Images/Install6.png)
+![install5](Images/install5.png)
+![install6](Images/install6.png)
 
 Congratulation, you have installed Splunk !
 
@@ -188,39 +188,39 @@ For the training, we gonna install the universal forwarder in default configurat
 * Go to the Windows computer
 * Download the [setup](https://www.splunk.com/en_us/download/universal-forwarder.html?utm_campaign=bing_emea_tier1_en_search_brand&utm_source=bing&utm_medium=cpc&utm_content=Uni_Forwarder_Demo&utm_term=splunk%20universal%20forwarder&_bk=splunk%20universal%20forwarder&_bt=&_bm=e&_bn=o&_bg=1140194278998147&device=c&msclkid=9b23c90e3a1e1e49076eaa1f8968a7da)
 
-![install7](Images/Install7.png)
+![install7](Images/install7.png)
 
 * Read the Splunk General Terms
 
 * Download the MD5
 
-![install8](Images/Install8.png)
+![install8](Images/install8.png)
 
 * Open the md5 file to have the checksum : at this time is : 183a09c64537832701320609e665e3e7
 * Check your MD5 (Get-FileHash .\splunkforwarder-9.0.0.1-9e907cedecb1-x64-release.msi -Algorithm md5) to confirm you've got the right installer.
 
-![install9](Images/Install9.png)
+![install9](Images/install9.png)
 
 * Launch the setup
 * Read the Licence Agreement
 
-![install10](Images/Install10.png)
+![install10](Images/install10.png)
 
 * Accept the Licence Agreement
 * Select "an on-premises Splunk Enterprise instance" because we have install Splunk on an on-premise server.
 
-![install11](Images/Install11.png)
+![install11](Images/install11.png)
 
 _Once again, we use the default configuration. Maybe in your company you will use a service account to run the Universal Fowarder._
 
 * Give a username to Universal Forwarder.
 
-![install12](Images/Install12.png)
+![install12](Images/install12.png)
 
 * Give the server IP or Hostname and the port to the receiving indexer.
 _I use the IP because i have no DNS in my lab. We don't have change any configuration during Splunk installation so the port used is 9997_
 
-![install13](Images/Install13.png)
+![install13](Images/install13.png)
 
 **Why give ip in receiving indexer and not in deployment server ? Because we don'"t have a Deployment server. A deployment server is the server that can send a configuration for your universal forwarder.**
 
@@ -231,11 +231,11 @@ _I use the IP because i have no DNS in my lab. We don't have change any configur
 * Go to services.msc
 * Check if "SplunkForwarder Service" is up.
 
-![install14](Images/Install14.png)
+![install14](Images/install14.png)
 
 * Check if communication are open with Powershell (Test-NetConnection -Computername Splunk_IP -port 9997)
 
-![install15](Images/Install15.png)
+![install15](Images/install15.png)
 
 Congratulation, you have installed Splunk !
 
