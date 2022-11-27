@@ -9,7 +9,7 @@
 * Se rendre sur le [Microsoft evalcenter](https://www.microsoft.com/fr-fr/evalcenter/evaluate-windows-server-2022)
 * Télécharger le fichier ISO
   * Vous pouvez mettre de fausses informations.
-  * 
+ 
 ![download1](Images/download1.png)
 
 * Télécharger l'ISO in "64 bits English"
@@ -64,24 +64,24 @@
 
 * Changer la configuration de l'adaptateur
 
-![ad2](Images/AD2.png)
+![ad2](Images/ad2.png)
 
 * Sélectionner les propriétés de la carte
 * Se rendre sur "Internet Protocol Version 4" > Properties
 
-![ad3](Images/AD3.png)
+![ad3](Images/ad3.png)
 
 * Configurer l'IP
 
-![ad4](Images/AD4.png)
+![ad4](Images/ad4.png)
 
 * Pinger votre passerelle (IP de LAN INTERFACE sur pfsense)
 
-![ad5](Images/AD5.png)
+![ad5](Images/ad5.png)
 
-* Renommer le serveur .
+* Renommer le serveur.
 
-![ad6](Images/AD6.png)
+![ad6](Images/ad6.png)
 ![ad7](Images/AD7.png)
 
 * Redémarrer la VM
@@ -90,27 +90,27 @@
 * Se connecter en administrator
 * Sélectionner "Add roles and features"
 
-![ad8](Images/AD8.png)
+![ad8](Images/ad8.png)
 
 * Sélectionner  role-based installation
 * Sélectionner le seul serveur listé
 * Sélectionner "Active Directory Domain Services"
 
-![ad9](Images/AD9.png)
-![ad10](Images/AD10.png)
+![ad9](Images/ad9.png)
+![ad10](Images/ad10.png)
 
 * Laisser la configuration par défaut
 * une fois l'installation finie, sélectionner "promote this server to a domain controller"
 
-![ad11](Images/AD11.png)
+![ad11](Images/ad11.png)
 
 * Ajouter une nouvelle foret
-* 
-![ad12](Images/AD112.png)
+
+![ad12](Images/ad12.png)
 
 * Laisser la configuration par défaut et configurer un mot de passe simple (encore une fois, on est dans un lab)
 
-![ad13](Images/AD113.png)
+![ad13](Images/ad13.png)
 
 * Laisser la configuration DNS par défaut
 * Noter la partie "netbios domain name", il s'agit de ce qu'il faudra mettre avant le \ lors des connexions au domaine.
