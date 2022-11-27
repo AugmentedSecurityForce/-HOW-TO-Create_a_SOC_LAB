@@ -52,7 +52,7 @@
 ## SIZING
 To help you to define the sizing of your Splunk Server, you can use [Splunk Sizing on AppSpot](https://splunk-sizing.appspot.com/).
 
-![sizing1](/Images/sizing1.png)
+![sizing1](Images/sizing1.png)
 
 ## SYSTEM REQUIREMENTS
 The official documentation give you the system requirment for Splunk Enterprise on-premises [here](https://docs.splunk.com/Documentation/Splunk/9.0.1/Installation/Systemrequirements)
@@ -73,7 +73,7 @@ Your Splunk server will received a lot of important data for your enterprise. I 
 ## NOTES
 _After 60 days you can convert to a perpetual free license._
 
-![licence](/Images/licence.png)
+![licence](Images/licence.png)
 
 # INSTALLATION OF SPLUNK (WINDOWS)
 
@@ -125,19 +125,19 @@ For this part i will use a Ubuntu 22.04 Desktop computer. It will work with othe
 * Create an account
 * Download the .deb file
 
-![linux1](/Images/linux1.png)
+![linux1](Images/linux1.png)
 
 * Go to your Downloads folder
 
-![linux2](/Images/linux2.png)
+![linux2](Images/linux2.png)
 
 * Right Click on it > Open with Other Applications > Software Install
 
-![linux3](/Images/linux3.png)
+![linux3](Images/linux3.png)
 
 Click on "Install" button and wait.
 
-![linux4](/Images/linux4.png)
+![linux4](Images/linux4.png)
 
 ## WITH CLI
 * Go to the [Splunk Site](https://www.splunk.com/en_us/download/splunk-enterprise.html?locale=en_us)
@@ -175,11 +175,11 @@ Click on "Install" button and wait.
 By default, Splunk on linux don't run at the system startup.
 To make it start, run this command in root : /opt/splunk/bin/splunk enable boot-start
 
-![linuxcli6](/Images/linux_cli6.png)
+![linuxcli6](Images/linux_cli6.png)
 
 Restart and check the status : /opt/splunk/bin/splunk status
 
-![linuxcli7](/Images/linux_cli7.png)
+![linuxcli7](Images/linux_cli7.png)
 
 # SEND WINDOWS LOGS ON IT
 ## INSTALL SPLUNK UNIVERSAL FORWARDER
@@ -517,4 +517,4 @@ Every user must have a role.
 When you installed Splunk, they only ask for a 8 characters password, no matter the complexity.
 You can modify it on Settings > Password management
 
-![pwdman1](/Images/pwdman.png)
+![pwdman1](Images/pwdman.png)
