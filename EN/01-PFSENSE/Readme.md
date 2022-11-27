@@ -22,12 +22,15 @@
   * Used a paper to note the MAC ADDRESS of each cards, it can be usefull for future actions.
 
 This will be the RED CARD (external network)
+
 ![setting07](Images/setting07.png)
 
 This will be the GREEN CARD (internal network)
+
 ![setting08](Images/setting08.png)
 
 This will be the orange CARD (dmz)
+
 ![setting09](Images/setting09.png)
 
 * Launch the VM
@@ -60,11 +63,13 @@ This will be the orange CARD (dmz)
 # CONFIGURATION
 
 Now, the server is power on with the new system
+
 ![conf01](Images/conf01.png)
 
 * Select 1 to configure interfaces
 
 ![conf02](Images/conf02.png)
+
 _Here, you can see the MAC ADDRESS and understand why i tell you to remember them.
 
 * Select the RED INTERFACE for WAN
