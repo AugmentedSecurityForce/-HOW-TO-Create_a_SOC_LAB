@@ -22,12 +22,15 @@
   * Noter les adresses MAC sur un papier, ça servira plus tard.
 
 Configuration de la zone rouge (réseau externe, hors entreprise)
+
 ![setting07](Images/setting07.png)
 
 Configuration de la zone verte (réseau interne à l'entreprise)
+
 ![setting08](Images/setting08.png)
 
-Configuration de la zone oranfz (DMZ)
+Configuration de la zone orange (DMZ)
+
 ![setting09](Images/setting09.png)
 
 * Démarrer la VM
@@ -37,7 +40,7 @@ Configuration de la zone oranfz (DMZ)
 
 # INSTALLATION
 * Accepter la licence
-* 
+
 ![install01](Images/install01.png)
 
 * Sélectionner "install"
@@ -52,7 +55,7 @@ Configuration de la zone oranfz (DMZ)
 ![install03](Images/install03.png)
 
 * Ne lancer pas la configuration manuelle
-* 
+
 ![install04](Images/install04.png)
 
 * Redémarrer la VM
@@ -65,7 +68,7 @@ Configuration de la zone oranfz (DMZ)
 
 ![conf02](Images/conf02.png)
 
-_Voici pourquoi il fallait noter les adresses MAC_.
+_Voici pourquoi il fallait noter les adresses MAC._
 
 * Sélectionner la carte avec la mac de la zone rouge pour la zone WAN
 * Sélectionner la carte avec la mac de la zone verte pour la zone LAN
